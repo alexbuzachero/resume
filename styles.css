@@ -1,0 +1,456 @@
+.background{
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+header {
+  margin: 0px;
+  background-color: #CDAE2C;
+  height: 350px;
+}
+
+header div{
+  height: 150px;
+  padding-top: 1rem;
+}
+
+header div img{
+  float: left;
+}
+
+.phone{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 168px;
+  clear: both;
+}
+
+.map{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 233px;
+  clear: both;
+}
+
+.email{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 277px;
+  clear: both;
+}
+
+.divcontact{
+  padding-top: 2.3rem;
+  height: 140px;
+}
+
+.contact{
+  height: 30px;
+  margin-top: .5rem;
+  padding-top: 0rem;
+}
+
+.leftdiv{
+  float: left;
+  width: 100%;
+  background-color: #808080;
+  margin-bottom: 1rem;
+}
+
+
+h2{
+  clear: both;
+}
+
+.lefticon p{
+  margin-left: 2.5rem;
+  padding-top: .3rem;
+}
+
+.leftdiv img{
+  float: left;
+}
+
+.language{
+  padding-top: .3rem;
+  margin-left: 2.5rem;
+}
+
+.imgperfil{
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+  margin-top: -5%;
+}
+
+.leftinfo{
+  width: 90%;
+  margin: 5% auto;
+  padding-top: 0rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.centerdiv{
+  float: left;
+  width: 100%;
+  background-color: white;
+}
+
+.centerinfo{
+  width: 98%;
+  margin: 1% auto;
+  padding-top: .01rem;
+  padding-bottom: .1rem;
+}
+
+.centercontent{
+  margin: 1.2% auto;
+  margin-top: 1.5rem;
+  line-height: 1.3;
+}
+
+/* TYPOGRAPH ========================= */
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  font-family: impact, sans-serif, "times new roman";
+}
+
+.proftittle{
+  text-align: right;
+  margin-top: -1.5rem;
+  font-family: impact, sans-serif, "times new roman";
+  font-size: 1.5rem;
+}
+
+.maintittle{
+  font-size: 1.7rem;
+}
+
+header div p{
+  font-size: 1.2rem;
+  font-family: impact, sans-serif, "times new roman";
+  font-weight: bold;
+  line-height: 30px;
+  margin-top: .3rem;
+  margin-left: 2rem;
+}
+
+.leftdiv p, ul{
+  color: white;
+  font-size: 1.2rem;
+}
+
+h2{
+  border-bottom: 1px solid #CDAE2C;
+}
+
+.period{
+  font-size: .5rem;
+  color: #CDAE2C;
+}
+.tittle{
+  margin-top: -1rem;
+
+}
+.jobdescription{
+  margin-top: -1rem;
+}
+
+.centercontent p{
+  font-size: 1.1rem;
+}
+
+@media screen and (min-width: 400px) {
+
+  header {
+    height: 365px;
+  }
+
+  .centercontent{
+    line-height: 1.3;
+  }
+}
+
+@media screen and (min-width: 580px) {
+
+  header div{
+    float: left;
+    height: 140px;
+    padding-top: 2rem;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3.7rem;
+    margin-top: .5rem;
+  }
+
+  .proftittle{
+    text-align: right;
+    margin-top: -2rem;
+    font-size: 1.8rem;
+  }
+
+  header div p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: .3rem;
+    margin-left: 2.1rem;
+  }
+
+  .phone{
+    width: 190px;
+  }
+
+  .map{
+    width: 250px;
+  }
+
+  .email{
+    width: 277px;
+  }
+
+  .centercontent{
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .maintittle{
+    font-size: 1.7rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  header {
+    height: 220px;
+  }
+
+  header div{
+    margin: .5%;
+    width: 49%;
+    height: 160px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1.9rem;
+  }
+
+  .proftittle{
+    font-size: 1.5rem;
+    margin-right: .3rem;
+  }
+
+  header div img{
+    float: left;
+  }
+
+  .phone{
+    margin-left: 1%;
+  }
+
+  .map{
+    margin-left: 1%;
+  }
+
+  .email{
+    margin-left: 1%;
+  }
+
+  .proftittle{
+    text-align: right;
+    margin-top: -1.5rem;
+  }
+
+  .maintittle{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  header div p{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .divcontact{
+    padding-top: 2.2rem;
+  }
+
+  .leftdiv{
+    width: 30%;
+    margin-top: 0rem;
+  }
+
+  .imgperfil{
+    margin-top: -15%;
+  }
+
+  .leftinfo{
+    width: 80%;
+    margin: 10% auto;
+    padding-top: 0rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  .centerdiv{
+    width: 70%;
+    background-color: #E4E6E7;
+  }
+
+  .centerinfo{
+    background-color: white;
+    width: 80%;
+    margin: 10% auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: .01rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    padding-bottom: .1rem;
+  }
+
+  .centercontent{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (min-width: 805px) {
+
+  header div{
+    margin: .5%;
+    width: 49%;
+    height: 160px;
+    margin-top: .7rem;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3.3rem;
+    margin-top: 1.5rem;
+  }
+
+  .proftittle{
+    font-size: 1.6rem;
+    margin-right: 2rem;
+  }
+
+  header div p{
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .divcontact{
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 880px) {
+
+  header div{
+    height: 160px;
+    margin-top: .7rem;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 1.2rem;
+  }
+
+  .proftittle{
+    font-size: 1.6rem;
+    margin-right: 2rem;
+  }
+
+  header div p{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .divcontact{
+    padding-top: 3rem;
+    margin-top: -2rem;
+  }
+}
+
+@media screen and (min-width: 1019px) {
+
+  header div{
+    margin: 1%;
+    width: 48%;
+    height: 160px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: .8rem;
+  }
+
+  .proftittle{
+    font-size: 1.8rem;
+    margin-right: 2rem;
+  }
+
+  header div p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: .4rem;
+  }
+  
+  .divcontact{
+    padding-top: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 1185px) {
+
+  header div{
+    height: 160px;
+    margin-top: .7rem;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: .5rem;
+  }
+
+  .proftittle{
+    font-size: 1.8rem;
+    margin-right: 2rem;
+  }
+}
+
+/*  Clearfix code======================== */
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+/**
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+.clearfix{
+  *zoom: 1;
+}
